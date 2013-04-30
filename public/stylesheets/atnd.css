@@ -1,0 +1,208 @@
+body {
+	font-size:10px;
+	margin:0 auto;
+	text-align:center;
+	background:url(../images/bedge_grunge.png);
+	line-height:1.6em;
+	color:#666;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	opacity: 0.9;
+}
+
+#search {
+	position: absolute;
+	right: 30px;
+	top: 20px;
+	font-size: 14px;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.title {
+	font-size:13px;
+	padding:0 0 5px;
+	border-bottom:1px dotted #999;
+}
+
+#atnd {
+	margin: 70px 0 0 0;
+}
+
+#backBtn {
+	position: absolute;
+	right: 30px;
+	top: 20px;
+	font-size: 14px;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.catch {
+	padding:3px 0;
+	font-size:11px;
+	color:#666;
+}
+
+#events {
+	padding:10px;
+	position:relative;
+	margin:0 auto;
+}
+
+.event {
+	font-size:11px;
+	width:203px;
+	margin:5px;
+	padding:10px;
+	float:left;
+	background:#424242;
+	color:#454545;
+	display:inline;
+	text-align:left;
+	background-color:#fdfdfd;
+	border:1px solid #bbb;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	box-shadow:1px 1px 2px #aaa;
+	cursor:pointer;
+}
+
+#events,.event {
+	-webkit-transition-duration:.2s;
+	-moz-transition-duration:.2s;
+	-ms-transition-duration:.2s;
+	-o-transition-duration:.2s;
+	transition-duration:.2s;
+}
+
+#events,.article {
+	-webkit-transition-duration:.1s;
+	-moz-transition-duration:.1s;
+	-ms-transition-duration:.1s;
+	-o-transition-duration:.1s;
+	transition-duration:.1s;
+}
+
+#events {
+	-webkit-transition-property:height,width;
+	-moz-transition-property:height,width;
+	-ms-transition-property:height,width;
+	-o-transition-property:height,width;
+	transition-property:height,width;
+}
+
+h1 {
+	box-shadow:3px 3px 3px #d7d4cd;
+	padding:10px 0 12px;
+	margin:0 0 30px;
+	background-color:#454545;
+	color:#d7d4cd;
+	background:url(../images/navy_blue.png);
+}
+
+#navigation {
+	width:100%;
+	opacity:.95;
+	position:fixed;
+	top:0;
+	border-bottom:3px solid #999;
+	box-shadow:5px 5px 5px #999;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	background:url(../images/navy_blue.png);
+	margin:0 auto;
+	text-align:center;
+	z-index: 3;
+}
+
+#load {
+	margin: 0 0 25px 0;
+	padding: 5px 10px;
+	font-size: 18px;
+}
+
+select {
+	margin: 10px 5px 0 5px;;
+}
+
+/* ============================================== */
+.category1 {
+	margin-bottom:15px;
+	padding:0 50px;
+}
+
+div.check-group input {
+	display:none;
+}
+
+.btn {
+	cursor:pointer;
+	padding:1px 10px;
+	border:solid 1px #aaa;
+	margin-left:-1px;
+	background:#eee;
+	background-image:-moz-linear-gradient(top,#F6F6F6,#ccc);
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#F6F6F6),to(#ccc));
+	-moz-box-shadow:2px 2px 3px #666;
+	-webkit-box-shadow:2px 2px 3px #666;
+	text-shadow:1px 1px 0 #fff;
+	margin:5px;
+	-webkit-border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.check-btn {
+	cursor:pointer;
+	padding:1px 10px;
+	float:left;
+	border:solid 1px #aaa;
+	margin-left:-1px;
+	background:#eee;
+	background-image:-moz-linear-gradient(top,#F6F6F6,#ccc);
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#F6F6F6),to(#ccc));
+	-moz-box-shadow:2px 2px 3px #666;
+	-webkit-box-shadow:2px 2px 3px #666;
+	text-shadow:1px 1px 0 #fff;
+	margin:5px;
+	-webkit-border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	-moz-border-radius:15px;
+}
+
+div.check-group input:checked+label {
+	color:#aa0000;
+	background:#C3C3C3;
+	background-image:-moz-linear-gradient(top,#C3C3C3,#DBDBDB);
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#C3C3C3),to(#DBDBDB));
+	text-shadow:0 0 0 #fff;
+}
+
+div.check-group label::-moz-selection,div.check-group label::selection {
+	background:transparent;
+}
+
+#btnContainer {
+	width:1000px;
+	margin:30px auto 0;
+}
+
+#sendBtn {
+	font-size:32px!important;
+	padding:3px 5px;
+}
